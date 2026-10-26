@@ -1,0 +1,10 @@
+{
+  "name": "tutp-ai-guardrails",
+  "version": "1.0.0",
+  "description": "Production guardrails that check LLM output before a parent sees it: code-verified arithmetic, script sanity for Indian languages, a known-wrong-fact guard, JSON retry, cost logging and record/replay for zero-spend e2e tests. Extracted from Tut-P (tutp.online).",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test \"test/*.test.js\"" }
+}
